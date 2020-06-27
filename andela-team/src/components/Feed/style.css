@@ -1,0 +1,22 @@
+.MuiOutlinedInput-multiline {
+  padding: 8.5px 11px !important;
+}
+.MuiOutlinedInput-root {
+  position: relative !important;
+  border-radius: 20px !important;
+}
+.MuiOutlinedInput-inputMultiline {
+  padding: 2px 20px;
+}
+.MuiInputBase-multiline {
+  padding: 10px 20px !important;
+}
+.comment {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  padding-top: 20px;
+}
+.mb-2 {
+  margin-bottom: 10px !important;
+}
