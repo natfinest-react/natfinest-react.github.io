@@ -2,7 +2,7 @@
   "name": "andela-team",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://natfinest-react.gihub.io/andela-team",
+  "main": "server.js",
   "engines": {
     "npm": "6.13.4",
     "node": "12.14.0"
@@ -18,6 +18,7 @@
     "axios": "^0.19.2",
     "bootstrap": "^4.5.0",
     "cors": "^2.8.5",
+    "express": "^4.17.1",
     "formik": "^2.1.4",
     "formik-material-ui": "^2.0.0-beta.1",
     "gh-pages": "^3.1.0",
@@ -37,9 +38,8 @@
     "redux-thunk": "^2.3.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "heroku-postbuild": "npm install",
+    "start": "node server.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
